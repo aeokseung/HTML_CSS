@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>combine selector</title>
+  </head>
+  <body>
+    <h1>hi <em>it's adam</em></h1>
+    <p>when i appear on tv <em id="dev">1000000</em></p>
+    <img
+      src="https://pds.joongang.co.kr/news/component/joongang_sunday/202209/03/c9f999b5-d32d-4a06-bdfc-02aff4755ffb.jpg"
+      weight="200"
+      height="200"
+    />
+    H<span>2</span>O
+    <p id="shadow">text shadow</p>
+    <ol>
+      <li>XHTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+      <li>Node</li>
+      <li>React</li>
+    </ol>
+    <style>
+        ol{
+            list-style-type: hiragana;
+        }
+      #shadow {
+        font-size: 50px;
+        text-shadow: -0.05em -0.05em 0.05em purple, 0.03em 0.03em 0.05em green;
+      }
+      span {
+        vertical-align: sub;
+        font-size: 0.5em;
+      }
+      #dev {
+        color: red;
+      }
+      h1:hover {
+        color: blue;
+        font-size: 2em;
+        font-family: 돋움;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS</title>
+    <style>
+      #gradient {
+        width: 100px;
+        height: 100px;
+        background: #1e5799; /* Old browsers */
+        background: -moz-radial-gradient(
+          center,
+          ellipse cover,
+          #1e5799 0%,
+          #207cca 48%,
+          #207cca 48%,
+          #2989d8 49%,
+          #7db9e8 100%
+        ); /* FF3.6-15 */
+        background: -webkit-radial-gradient(
+          center,
+          ellipse cover,
+          #1e5799 0%,
+          #207cca 48%,
+          #207cca 48%,
+          #2989d8 49%,
+          #7db9e8 100%
+        ); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(
+          ellipse at center,
+          #1e5799 0%,
+          #207cca 48%,
+          #207cca 48%,
+          #2989d8 49%,
+          #7db9e8 100%
+        ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      }
+      p{
+        background-color: blue;
+        margin: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gradient"></div>
+    <p>nexon-networks</p>
+    <p>adamsoft</p>
+    <p>triglows</p>
+  </body>
+</html>
